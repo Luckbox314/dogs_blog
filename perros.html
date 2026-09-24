@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="GUAU-BLOG.NET - El primer blog de internet escrito 100% por perros. Diario, fotos, libro de visitas y mas!">
+<meta name="keywords" content="perros, blog, guau, huesos, cartero, pelota, diario, mascotas, 2004">
+<meta name="generator" content="Microsoft FrontPage 2003">
+<title>Los perros - GUAU-BLOG.NET</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="marco">
+
+  <div id="cabecera">
+    <table width="100%"><tr>
+      <td width="96"><img src="img/perro-cola.svg" width="96" height="64" alt="perro moviendo la cola"></td>
+      <td align="center">
+        <h1>GUAU-BLOG.NET</h1>
+        <div class="lema">~ el primer weblog de internet escrito 100% por perros ~</div>
+      </td>
+      <td width="96" align="right"><img src="img/perro-cola.svg" width="96" height="64" alt="perro moviendo la cola" style="transform:scaleX(-1)"></td>
+    </tr></table>
+  </div>
+
+  <div id="navbar">
+    <a href="index.html">INICIO</a><span class="sep">|</span>
+    <a href="perros.html">LOS PERROS</a><span class="sep">|</span>
+    <a href="libro-visitas.html">LIBRO DE VISITAS</a><span class="sep">|</span>
+    <a href="enlaces.html">ENLACES</a><span class="sep">|</span>
+    <a href="#" onclick="favoritos();return false;">AGREGAR A FAVORITOS</a>
+  </div>
+
+  <div id="marquesina">
+    <marquee scrollamount="4">*** GUAU!!! *** Bienvenidos a GUAU-BLOG.NET *** Ya somos 4 perros bloggeando *** NUEVO: Rocky cuenta su trauma con el baño *** Firma el libro de visitas o te muerdo (es broma) *** Esta pagina se ve mejor en 800x600 con Internet Explorer 6 *** Se busca: pelota amarilla perdida en el parque, recompensa 3 galletas ***</marquee>
+  </div>
+
+  <table class="layout"><tr>
+
+    <td class="izq">
+      <div class="caja">
+        <h3>Menu</h3>
+        <div class="cuerpo"><ul>
+          <li><a href="index.html">Portada</a></li>
+          <li><a href="perros.html">Quienes somos</a></li>
+          <li><a href="libro-visitas.html">Libro de visitas</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+          <li><a href="#" onclick="alert('El chat IRC esta caido desde 2003, disculpen.');return false;">Chat #guau</a></li>
+          <li><a href="#" onclick="alert('Fotos: pendiente, la camara digital cuesta 40.000 pesos.');return false;">Galeria de fotos</a></li>
+        </ul></div>
+      </div>
+
+      <div class="caja">
+        <h3>Ultimos posts</h3>
+        <div class="cuerpo"><ul>
+          <li><a href="posts/rocky-el-bano.html">El baño: mi version de los hechos</a> <span class="nuevo">NEW</span></li>
+          <li><a href="posts/luna-la-pelota.html">La pelota amarilla que se fue</a></li>
+          <li><a href="posts/canela-sofa.html">Como subirse al sofa sin que te vean</a></li>
+          <li><a href="posts/firulais-cartero.html">El cartero: un analisis</a></li>
+        </ul></div>
+      </div>
+
+      <div class="caja">
+        <h3>Encuesta</h3>
+        <div class="cuerpo">
+          <b>¿Que es lo mejor de la vida?</b>
+          <div id="resultados"></div>
+          <div style="margin-top:4px">
+            <a href="#" onclick="votar('pelota');return false;">[pelota]</a>
+            <a href="#" onclick="votar('palo');return false;">[palo]</a><br>
+            <a href="#" onclick="votar('calcetin');return false;">[calcetin]</a>
+            <a href="#" onclick="votar('cartero');return false;">[cartero]</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="caja">
+        <h3>Estado</h3>
+        <div class="cuerpo">
+          <b>Firulais:</b> <span class="estado">durmiendo al sol</span><br>
+          <b>Luna:</b> <span class="estado">buscando la pelota</span><br>
+          <b>Rocky:</b> <span class="estado">escondido (baño)</span><br>
+          <b>Canela:</b> <span class="estado">en el sofa (shh)</span>
+        </div>
+      </div>
+
+      <div class="construccion"><span>EN CONSTRUCCION</span></div>
+    </td>
+
+    <td class="centro">
+      <h2 style="font-family:'Comic Sans MS',cursive;color:#336699;text-align:center;margin-top:0">~*~ Los perros del blog ~*~</h2>
+      <p style="text-align:center;font-size:11px">Somos cuatro. Vivimos en la misma cuadra. Nos conocimos oliendonos el trasero, como corresponde.</p>
+      <table width="100%" cellpadding="8" cellspacing="0" style="font-size:11px">
+        <tr id="firulais">
+          <td width="110" align="center" valign="top" style="background:#e6f0ff;border:1px solid #99ccff">
+            <img class="avatar-grande" src="img/avatares/firulais.svg" alt="Firulais"><br>
+            <b style="font-size:14px">Firulais</b><br><span style="color:#666">Webmaster</span>
+          </td>
+          <td valign="top" style="border:1px solid #99ccff">
+            <b>Raza:</b> Mestizo (mama pastor aleman, papa desconocido, probablemente algo elegante)<br>
+            <b>Edad:</b> 6 años (42 en años humanos, pero no se nota)<br>
+            <b>Le gusta:</b> Vigilar, dormir al sol, el hueso de los martes, HTML<br>
+            <b>No le gusta:</b> El cartero, los gatos, los gatos que comentan en el blog<br>
+            <b>Frase:</b> <i>"Si no ladre, no paso."</i><br>
+            <b>Messenger:</b> firulais_webmaster@hotmail.com <span style="color:#090">(en linea)</span><br>
+            <b>Posts:</b> <a href="posts/firulais-cartero.html">El cartero: un analisis</a>
+          </td>
+        </tr>
+        <tr><td colspan="2" height="8"></td></tr>
+        <tr id="luna">
+          <td width="110" align="center" valign="top" style="background:#ffe6ff;border:1px solid #ff99ff">
+            <img class="avatar-grande" src="img/avatares/luna.svg" alt="Luna"><br>
+            <b style="font-size:14px">Luna</b><br><span style="color:#666">Diseñadora</span>
+          </td>
+          <td valign="top" style="border:1px solid #ff99ff">
+            <b>Raza:</b> Border Collie (100%, tiene papeles, los mordio)<br>
+            <b>Edad:</b> 3 años<br>
+            <b>Le gusta:</b> LA PELOTA, correr, la pelota, ordenar a las gallinas del vecino, la pelota<br>
+            <b>No le gusta:</b> Que la pelota se vaya. Estar quieta.<br>
+            <b>Frase:</b> <i>"¿Y la pelota? ¿Donde esta la pelota? ¿La tienes tu? ¿LA PELOTA?"</i><br>
+            <b>Messenger:</b> luna_border_2001@hotmail.com <span style="color:#f90">(ausente - en el parque)</span><br>
+            <b>Posts:</b> <a href="posts/luna-la-pelota.html">La pelota amarilla que se fue</a>
+          </td>
+        </tr>
+        <tr><td colspan="2" height="8"></td></tr>
+        <tr id="rocky">
+          <td width="110" align="center" valign="top" style="background:#e6ffe6;border:1px solid #99cc99">
+            <img class="avatar-grande" src="img/avatares/rocky.svg" alt="Rocky"><br>
+            <b style="font-size:14px">Rocky</b><br><span style="color:#666">Hosting</span>
+          </td>
+          <td valign="top" style="border:1px solid #99cc99">
+            <b>Raza:</b> Labrador negro (con algo de oso, segun el)<br>
+            <b>Edad:</b> 4 años<br>
+            <b>Le gusta:</b> Revolcarse en cosas, comer, revolcarse en comida, nadar en el rio (paradojicamente)<br>
+            <b>No le gusta:</b> El B-A-Ñ-O. El secador. El shampoo de manzana.<br>
+            <b>Frase:</b> <i>"Si huele fuerte, es bueno."</i><br>
+            <b>Messenger:</b> rocky_labrador_negro@hotmail.com <span style="color:#c00">(desconectado - escondido)</span><br>
+            <b>Posts:</b> <a href="posts/rocky-el-bano.html">El baño: mi version de los hechos</a><br>
+            <b>Nota:</b> El servidor del blog esta en su caseta. Si el blog se cae, es porque Rocky se acosto encima.
+          </td>
+        </tr>
+        <tr><td colspan="2" height="8"></td></tr>
+        <tr id="canela">
+          <td width="110" align="center" valign="top" style="background:#ffffe6;border:1px solid #cccc66">
+            <img class="avatar-grande" src="img/avatares/canela.svg" alt="Canela"><br>
+            <b style="font-size:14px">Canela</b><br><span style="color:#666">Redactora</span>
+          </td>
+          <td valign="top" style="border:1px solid #cccc66">
+            <b>Raza:</b> Salchicha (Dachshund, pero nadie sabe pronunciarlo)<br>
+            <b>Edad:</b> 5 años<br>
+            <b>Le gusta:</b> El sofa, las mantas, el sofa con mantas, escribir tutoriales<br>
+            <b>No le gusta:</b> Las escaleras (tema de columna), que muevan el sofa<br>
+            <b>Frase:</b> <i>"Yo llevo aqui todo el dia. *bostezo*"</i><br>
+            <b>Messenger:</b> canela_sofa@hotmail.com <span style="color:#090">(en linea - no molestar)</span><br>
+            <b>Posts:</b> <a href="posts/canela-sofa.html">Como subirse al sofa sin que te vean</a>
+          </td>
+        </tr>
+      </table>
+      <hr class="perro">
+      <div style="text-align:center;font-size:10px">
+        <b>¿Quieres ser parte del blog?</b> Requisitos: ser perro, saber escribir, tener acceso a un PC cuando los humanos no estan.<br>
+        Escribe a <a href="#" onclick="alert('Buzon lleno (Rocky se comio el modem).');return false;">firulais_webmaster@hotmail.com</a>. No se aceptan gatos. No insistan.
+      </div>
+    </td>
+
+    <td class="der">
+      <div class="caja">
+        <h3>Visitas</h3>
+        <div class="cuerpo" style="text-align:center">
+          <span class="contador" id="contador">000000</span><br>
+          <span style="font-size:9px">perros han olfateado esta pagina desde el 01/01/2003</span>
+        </div>
+      </div>
+
+      <div class="caja">
+        <h3>Hora oficial</h3>
+        <div class="cuerpo" style="text-align:center;font-family:'Courier New';font-size:14px">
+          <span id="reloj">00:00:00</span><br>
+          <span style="font-size:9px">(hora de la caseta)</span>
+        </div>
+      </div>
+
+      <div class="caja">
+        <h3>Sobre el blog</h3>
+        <div class="cuerpo">
+          Somos <b>4 perros</b> que vivimos en la misma cuadra y decidimos hacer un weblog para contar nuestras aventuras.
+          Los humanos no saben que sabemos escribir.<br><br>
+          <span class="arcoiris">Ya somos mas de 100 perros en el foro!</span><br>
+          <span class="parpadeo" style="color:red;font-weight:bold">¡¡NUEVO POST!!</span>
+        </div>
+      </div>
+
+      <div class="caja">
+        <h3>Webring</h3>
+        <div class="cuerpo" style="text-align:center">
+          <b>Anillo Perruno Hispano</b><br>
+          <a href="#">&lt;&lt; anterior</a> | <a href="#">aleatorio</a> | <a href="#">siguiente &gt;&gt;</a><br>
+          <span style="font-size:9px">sitio #23 de 14</span>
+        </div>
+      </div>
+
+      <div class="caja">
+        <h3>Botones</h3>
+        <div class="cuerpo" style="text-align:center">
+          <a class="boton88" href="#" style="background:#cc0000">GUAU-BLOG.NET</a><br>
+          <a class="boton88" href="#" style="background:#336699">HTML 4.01 VALIDO*</a><br>
+          <a class="boton88" href="#" style="background:#000000;color:#00ff00 !important">SIN FRAMES</a><br>
+          <a class="boton88" href="#" style="background:#663399">HECHO EN NOTEPAD</a><br>
+          <img src="img/netscape.svg" width="88" height="31" alt="Netscape Now!"><br>
+          <a class="boton88" href="#" style="background:#ff9900;color:#000 !important">ANTI-GATOS</a>
+          <div style="font-size:8px;color:#999">*no validado</div>
+        </div>
+      </div>
+
+      <div class="nota-cd">
+        <b>Musica:</b> esta pagina tenia un MIDI de fondo ("Who let the dogs out") pero los navegadores modernos ya no lo dejan sonar. Imaginalo.
+      </div>
+    </td>
+
+  </tr></table>
+
+  <div id="pie">
+    &copy; 2003-2004 GUAU-BLOG.NET - Todos los derechos reservados (y enterrados en el patio)<br>
+    Webmaster: <a href="perros.html#firulais">Firulais</a> | Diseño: <a href="perros.html#luna">Luna</a> | Hosting: la caseta de Rocky<br>
+    Mejor visto en <b>800x600</b> con Internet Explorer 6.0 o Netscape 7 | <a href="#" onclick="alert('Nadie ha recibido nunca un email en esta direccion.');return false;">webmaster@guau-blog.net</a><br>
+    <span style="font-size:9px">Esta pagina es una demo ficticia con fines humoristicos. Ningun cartero fue lastimado.</span>
+  </div>
+
+</div>
+</body>
+</html>

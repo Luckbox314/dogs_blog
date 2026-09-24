@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31">
+  <rect width="88" height="31" fill="#003366" stroke="#66ccff"/>
+  <circle cx="16" cy="15" r="9" fill="#66ccff"/>
+  <text x="52" y="13" font-family="Arial" font-weight="bold" font-size="8" fill="#fff" text-anchor="middle">NETSCAPE</text>
+  <text x="52" y="23" font-family="Arial" font-size="7" fill="#ffff99" text-anchor="middle">NOW!</text>
+</svg>
